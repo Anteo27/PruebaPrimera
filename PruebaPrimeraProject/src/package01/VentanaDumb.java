@@ -48,7 +48,7 @@ public class VentanaDumb extends JFrame {
 	}
 
 	private void colocarEtiqueta() {
-		etiqueta = new JLabel("¿ERES TONTO?");
+		etiqueta = new JLabel("ARE YOU DUMB?");
 		etiqueta.setBounds(30, 10, 250, 30);
 		etiqueta.setFont(new Font("arial", 1, 20));
 		panel.add(etiqueta);
@@ -134,7 +134,7 @@ public class VentanaDumb extends JFrame {
 
 			@Override
 			public void actionPerformed(ActionEvent ae) {
-				saludo.setText("¡LO SABÍA!");
+				saludo.setText("HA HA I KNEW IT!");
 			}
 		};
 		boton1.addActionListener(oyenteDeAccion);
