@@ -135,7 +135,7 @@ public class VentanaDumb extends JFrame {
 				
 			}
 			
-		};
+		}; 
 		
 		boton2.addMouseListener(oyenteDeRaton);
 	}
